@@ -87,7 +87,8 @@ h3 {
   width: 25%;
 }
 .mountain {
-  align-items: center;
+  height: auto;
+  width: auto;
 }
 .only-span {
   text-decoration: underline;
