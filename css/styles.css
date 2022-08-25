@@ -50,14 +50,14 @@ body {
 .duck-code {
   float: right;
   border-radius: 12%;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 1%;
   height: 180%;
   width: 25%;
 }
 .dotted-hr {
   border-color: gray;
   border-style: dotted none none;
-  border-width: 10px;
+  border-width: 1rem;
   width: 8%;
 }
 .footer-link {
@@ -69,7 +69,7 @@ h1 {
   font-family: cursive;
   font-size: 350%;
   margin: 0 auto 0 auto;
-  padding: 50px 0 0 0;
+  padding: 4% 0 0 0;
 }
 h2 {
   color: #66bfbf;
@@ -83,8 +83,11 @@ h3 {
 }
 .ios-image {
   float: left;
-  margin: 0 30px 0 0;
+  margin: 0 2% 0 0;
   width: 25%;
+}
+.mountain {
+  align-items: center;
 }
 .only-span {
   text-decoration: underline;
@@ -102,9 +105,13 @@ p {
 }
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 7% auto 7% auto;
   text-align: left;
   line-height: 2;
+}
+.social-media-images {
+  height: 10%;
+  width: 10%;
 }
 .techs-us {
   color: white;
