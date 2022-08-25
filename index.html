@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <title>Tracy's 1st CSS Site</title>
+  </head>
+  <body>
+    <div class="top-container"> <!-- 1em is 16 pixesl -->
+      <img class="top-cloud" src="images/cloud.png" alt="cloud" />
+      <h1>Im Tracy<h1>
+      <h2>a <span class="only-span">pro</span>grammer</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud" />
+      <img src="images/mountain.png" alt="mountain" />
+    </div>
+      <div class="profile">
+        <img class="tracy-pic" src="images/Tracy.png" alt="Tracy Cox" />
+        <h2>Hello</h2>
+        <p>
+          I specialize in developing creative, & responsive websites.
+        </p>
+      </div>
+      <hr class="dotted-hr">
+      <div class="skills"> <!--Need to make this line up to the side
+      of each other, will try float and see how it turns out-->
+
+      <!-- can make the image float to the left of the text and make the tex wrap around it with one property
+      the FLOAT porperty-->
+        <h2>My Skills</h2>
+        <div class="skill-row">
+          <img class="ios-image" src="images/ios-tag.gif" alt="IOS Code" />
+          <h3>HTML</h3>
+          <p>
+            HTML Structure is the frame or the skeleton of any site! HTML Tags are used to tell the
+            browser how to format the code in a code editor. From Un-Organized Lists, to Tables,to Paragraphs,
+            to H1, H2 etc, even simple Anchor tags. HTML is 
+            <b>the</b> fudemental building block of any website. <!--We can add a property (to the paragraph tag in this instance)
+            and give it a class, so that text goes underneath the image. That property is clear: left;. Think of CLEAR as remove!-->
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="duck-code" src="images/duck-code.gif" alt="Duck Code" />
+          <h3>CSS</h3>
+          <p>
+            Do you want to make your website modern, unique and standout? With CSS you can take basic boring
+            1990's HTML and do just that! Most independent businessess rely on sites
+            with a emphasis of just HTML, CSS & JavaScript!
+          </p>
+        </div>
+      </div>
+      <hr class="dotted-hr">
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Check out my personal sites!</h3>
+        <p>
+          Need help with your next big idea? Let's talk about it!
+        </p><br>
+        <a target="_blank" class="btn" href="mailto:tracycox21782@yahoo.com">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/tracy-cox-6a316a153">
+      <img class="social-media-images" src="images/LinkedInIcon.png" alt="Tracy's LinkedIn" height="200" width="200"> </a>
+      <a class="footer-link" href="https://twitter.com/tracy_cox_">
+      <img class="social-media-images" src="images/twitterblack.jpeg" alt="Tracy's Twitter" height="200" width="200"></a>
+      <a class="footer-link" href="https://github.com/Dokujin21">
+      <img class="social-media-images" src="images/github.png" alt="Tracy's Github" height="200" width="200"></a>
+      <p class="techs-us">© "Techs-US"</p>
+    </div>
+  </body>
+</html>
